@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three JS App</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div class="absolute text-white text-center centerText">
+            <h1 class="font-space-mono text-sm uppercase tracking-wide">Walter Mitty</h1>
+            <p class="font-exo text-4xl">To see the world, things dangerous to come to, to see behind walls, draw closer, to find each other, and to feel. That is the <strong>purpose of life</strong>.</p>
+            <a 
+            href="https://en.wikipedia.org/wiki/The_Secret_Life_of_Walter_Mitty_(2013_film)"
+            class="border px-4 py-2 rounded-lg text-sm font-space-mono uppercase mt-8
+            hover:bg-white 
+            hover:text-gray-800
+            inline-block">View more</a>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js" 
+    integrity="sha512-NLtnLBS9Q2w7GKK9rKxdtgL7rA7CAS85uC/0xd9im4J/yOL4F9ZVlv634NAM7run8hz3wI2GabaA6vv8vJtHiQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.js" integrity="sha512-u+vtyZDzyd0zgAEffKfoNx2BnCahAOBBYvzGu6vma1B18zQ6lEGF3F6dAFvqaxDoIU/GZRxcXV5oq23OIrkQwg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
